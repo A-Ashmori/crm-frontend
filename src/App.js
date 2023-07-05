@@ -2,6 +2,7 @@
 import './App.css';
 import { DefaultLayout } from './layout/DefaultLayout';
 import { Entry } from './pages/entry/Entry.page';
+import { Dashboard } from './pages/entry/dashboard/Dashboard.page';
 
 
 
@@ -11,8 +12,7 @@ function App() {
     <div className="App">
       {/* <Entry/> */}
       <DefaultLayout>
-      //dashboard
-
+      <Dashboard/>
       </DefaultLayout>
       
     </div>
@@ -20,3 +20,20 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+// import React from "react";
+
+// export const Placeholder = () => {
+//     return (
+//         <div>
+   
+//         </div>
+        
+//     )
+// }
